@@ -1,0 +1,15 @@
+{
+	"compilerOptions": {
+		"module": "amd",
+		"noImplicitAny": false,
+		"removeComments": false,
+		"preserveConstEnums": true,
+		"target": "ES5",
+		"sourceMap": false,
+		"experimentalDecorators": true
+	},
+	"exclude": [
+		"cpide/languages/typescript/common/lib/lib.es6.d.ts",
+		"cpide/languages/typescript/common/lib/lib.d.ts"
+	]
+}
