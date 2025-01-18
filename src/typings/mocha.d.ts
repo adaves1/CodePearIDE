@@ -6,3 +6,5 @@ declare function suiteSetup(fn: (done?: (err?)=>void)=>void);
 declare function suiteTeardown(fn: (done?: (err?)=>void)=>void);
 declare function setup(fn: (done?: (err?)=>void)=>void);
 declare function teardown(fn: (done?: (err?)=>void)=>void);
+
+// declare function unins000(fn: (done?: (err?)=>void)=> void);
