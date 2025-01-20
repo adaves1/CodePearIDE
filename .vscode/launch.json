@@ -3,9 +3,9 @@
 	"configurations": [
 		{
 			"name": "Unit Tests",
-			"type": "node",
+			"type": "cp",
 			"request": "launch",
-			"program": "node_modules/mocha/bin/_mocha",
+			"program": "bin/cp.exe",
 			"stopOnEntry": false,
 			"args": [
 				"--timeout",
@@ -21,7 +21,7 @@
 		},
 		{
 			"name": "Attach to Extension Host",
-			"type": "node",
+			"type": "cp",
 			"request": "attach",
 			"port": 5870,
 			"sourceMaps": true,
